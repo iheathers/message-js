@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="grid">
+        <div class="decode-section hide">
+          <h2 class="decoded-msg"></h2>
+
+          <a href="index.html">Create your own secret message</a>
+        </div>
+
+        <form action="" class="form-container">
+          <label for="message">Enter your secret message</label>
+          <input placeholder="Your Message" id="message-input" type="text" />
+          <input type="submit" value="Create" />
+        </form>
+
+        <div class="link-container hide">
+          <label for="">Share the generated link</label>
+          <input type="text" id="link-input" />
+
+          <button class="copy-btn">Copy</button>
+          <button class="goto">Goto Link</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
